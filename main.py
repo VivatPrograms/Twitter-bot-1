@@ -8,7 +8,9 @@ m = []
 minus = False
 
 message = ['placeholder','GUYS CONTROVERSIAL OPINION WHY DO WE EXIST?','https://www.youtube.com/watch?v=WSrlFDzWcSc']
-#both arrays have the same amount of items inside them
+#For every message there should be a text and image, 
+#if no text then leave it None for example message = [None,'text',..], the same is true for image variable, leave it None if no image
+#you can add as many messages and images as u want, not only 3. But both arrays should have the same amount of elements (right now its 3 elements)
 image = ['.venv\cat.jpg',None,None]
 
 def api():
